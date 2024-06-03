@@ -1,0 +1,21 @@
+
+/* Add global styles here */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.loan-simulator {
+  display: flex;
+  justify-content: space-around;
+}
+
+.loan-column, .scpi-column {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 30%;
+}
+
+.loan-column label, .scpi-column label {
+  display: block;
+  margin-bottom: 10px;
+}
