@@ -8,7 +8,7 @@ const LoanSimulator = () => {
   const [scpiData, setScpiData] = useState([]);
 
   useEffect(() => {
-    fetch('/api/scpi')
+    fetch('../pages/api/scpi')
       .then(response => response.json())
       .then(data => setScpiData(data));
   }, []);
