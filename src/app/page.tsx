@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import LoanSimulator from '../components/LoanSimulator';
+import LoanSimulator from './components/LoanSimulator';
 
 export default function Home() {
   return (
